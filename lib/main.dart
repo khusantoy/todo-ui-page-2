@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("My Todo"),
             centerTitle: true,
-            actions: [
+            actions: const [
               Icon(Icons.notifications),
               SizedBox(
                 width: 25,
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Container(
