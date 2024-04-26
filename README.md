@@ -2,6 +2,9 @@
 
 A new Flutter project.
 
+## Preview
+<img src="preview/todo_page2.jpg" alt="todo page 2" width="300" height="600">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
