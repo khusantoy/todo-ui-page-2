@@ -157,7 +157,43 @@ class MyApp extends StatelessWidget {
                       width: 15,
                     ),
                     Icon(
-                      Icons.check_circle,
+                      Icons.file_present_rounded,
+                      size: 30,
+                      color: Colors.blue,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "Complete Flutter UI App\nchallenge and upload it\non GitHub",
+                      style: TextStyle(fontSize: 16),
+                    ),
+                    SizedBox(
+                      width: 50,
+                    ),
+                    Text(
+                      "1h 25m",
+                      style: TextStyle(color: Colors.grey),
+                    )
+                  ],
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: 350,
+                height: 80,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15)),
+                child: const Row(
+                  children: [
+                    SizedBox(
+                      width: 15,
+                    ),
+                    Icon(
+                      Icons.cake,
                       size: 30,
                       color: Colors.blue,
                     ),
@@ -214,57 +250,18 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(
-                height: 20,
-              ),
-              Container(
-                width: 350,
-                height: 80,
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(15)),
-                child: const Row(
-                  children: [
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Icon(
-                      Icons.check_circle,
-                      size: 30,
-                      color: Colors.blue,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      "Complete Flutter UI App\nchallenge and upload it\non GitHub",
-                      style: TextStyle(fontSize: 16),
-                    ),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    Text(
-                      "1h 25m",
-                      style: TextStyle(color: Colors.grey),
-                    )
-                  ],
-                ),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
-              FloatingActionButton(
-                backgroundColor: Colors.blue,
-                onPressed: () {},
-                child: const Text(
-                  "+",
-                  style: TextStyle(color: Colors.white, fontSize: 30),
-                ),
-              )
             ],
           ),
         ),
         drawer: const Drawer(),
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: Colors.blue,
+          onPressed: () {},
+          child: const Text(
+            "+",
+            style: TextStyle(color: Colors.white, fontSize: 30),
+          ),
+        ),
       ),
     );
   }
